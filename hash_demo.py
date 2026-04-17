@@ -1,5 +1,1 @@
-import hashlib
 
-password = "admin123"
-hash = hashlib.md5(password.encode()).hexdigest()
-print(hash)
